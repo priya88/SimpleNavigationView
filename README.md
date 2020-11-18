@@ -5,5 +5,5 @@
  3. To customize navigation item and links.
  4. To add navigation item button at trailing or leading.
  
-![SimpleNavigationView](https://user-images.githubusercontent.com/3336303/99543996-1d752280-29b4-11eb-8294-2a56a26fc23c.png)
-![SimpleNavigationView](https://user-images.githubusercontent.com/3336303/99544018-20701300-29b4-11eb-97fa-7efbae9aea9f.png)
+![SimpleSwiftUINavigationView](https://user-images.githubusercontent.com/3336303/99596728-1c191980-29f7-11eb-87ce-6bf0c3da9393.png)
+![SimpleSwiftUINavigationView](https://user-images.githubusercontent.com/3336303/99596736-1f140a00-29f7-11eb-92fd-243c79e4d7d7.png)
