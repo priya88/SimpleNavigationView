@@ -11,15 +11,15 @@ struct ContentView: View {
     
     init() {
         let navigationBarAppearance = UINavigationBar.appearance()
-        navigationBarAppearance.barTintColor = .yellow
-        navigationBarAppearance.tintColor = .red
+        navigationBarAppearance.barTintColor = .orange
+        navigationBarAppearance.tintColor = .white
         
         //Use this if NavigationBarTitle is with Large Font
         
        // navigationBarAppearance.largeTitleTextAttributes = [.font : UIFont(name: "Georgia-Bold", size: 36)!]
         
         //Use this if NavigationBarTitle is with displayMode = .inline
-        navigationBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.blue, .font: UIFont(name: "Georgia-Bold", size: 20)!]
+        navigationBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white, .font: UIFont(name: "Georgia-Bold", size: 30)!]
     }
     
     // Shows number of items
@@ -37,6 +37,7 @@ struct ContentView: View {
                 // Text to display number of items count
 
                 Text("Total number of items: \(numberOfItems)")
+                    .font(.headline)
                     .navigationBarItems(leading:
                         Button("Remove") {
                             guard numberOfItems > 0 else {return}
